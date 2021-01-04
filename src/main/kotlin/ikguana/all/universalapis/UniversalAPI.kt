@@ -1,6 +1,6 @@
 package ikguana.all.universalapis
 
-abstract class UniversalAPI(val plugin: UniversalAPIs) {
+abstract class UniversalAPI {
     fun close() {
     }
 }
