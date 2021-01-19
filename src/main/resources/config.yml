@@ -1,2 +1,16 @@
-address: "127.0.0.1"
-port: 2021
+mongodb:
+  address: "127.0.0.1"
+  port: 2021
+
+defaultConfigs:
+  players:
+    chat:
+      format: "%1%] %2% : %3%"
+
+    prefix:
+      default: "USER"
+
+    warning:
+      maxWarning: 5
+      strings:
+        banned-player: "경고 누적으로 인해 접속하실수 없습니다."
